@@ -9,27 +9,25 @@ The objective of this project is to evaluate the **accuracy, robustness, and UI 
 
 ---
 
-## 🔍 System Under Test
+## System Under Test
 
 Depending on the selected option:
 
 - **Option 1 (Singlish → Sinhala)**  
   https://www.swifttranslator.com/
 
-- **Option 2 (Thanglish → Tamil)**  
-  https://tamil.changathi.com/
 
-> ⚠️ Note: Backend APIs, performance, and security testing are **out of scope** for this assignment.
+>  Note: Backend APIs, performance, and security testing are **out of scope** for this assignment.
 
 ---
 
-## 🧪 Test Coverage
+##  Test Coverage
 
 The automated test cases cover:
 
-- ✅ **Positive functional scenarios** (correct transliteration)
-- ❌ **Negative functional scenarios** (incorrect or unstable behavior)
-- 🖥️ **UI-related behavior** (real-time output updates, input handling)
+- **Positive functional scenarios** (correct transliteration)
+- **Negative functional scenarios** (incorrect or unstable behavior)
+- **UI-related behavior** (real-time output updates, input handling)
 
 ### Functional coverage includes:
 - Sentence structures (simple, compound, complex)
@@ -49,7 +47,7 @@ All test cases are automated using **Playwright** and mapped to the Excel test c
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Node.js**
 - **Playwright**
